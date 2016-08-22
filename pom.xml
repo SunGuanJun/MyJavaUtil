@@ -3,6 +3,24 @@
   <groupId>MyJavaUtil</groupId>
   <artifactId>MyJavaUtil</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	  <dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>servlet-api</artifactId>
+		<version>2.5</version>
+		<scope>provided</scope>
+	  </dependency>
+	  
+	  <!--  Gson: Java to Json conversion -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
